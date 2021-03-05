@@ -32,6 +32,7 @@ public class Student {
 	private String name;
 	private String email;
 	private LocalDate dob;
+	
 	@Transient
 	private Integer age;
 	
@@ -110,7 +111,8 @@ public class Student {
 		return "Student [id=" + id + 
 				", name=" + name + 
 				", email=" + email + 
-				", dob=" + dob + "]";
+				", dob=" + dob + 
+				", age=" + age +"]";
 	}
 
 
