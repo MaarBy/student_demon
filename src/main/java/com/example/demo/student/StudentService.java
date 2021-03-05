@@ -32,7 +32,7 @@ public class StudentService {
 		studentRepository.save(student);	
 }
 
-	public void deleteStudent(Long id) {
+	public void deleteStudent(Long studentId) {
 		
 	}
 
